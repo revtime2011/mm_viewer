@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mygui_test1" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc8" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\bin32d\mygui_test1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="..\obj\bin32d\mygui_test1\" />
+				<Option type="1" />
+				<Option compiler="msvc8" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/TP" />
+					<Add option="/Gd" />
+					<Add option="/Zi" />
+					<Add option="/EHsc" />
+					<Add option="/D_DEBUG" />
+					<Add option="/DWIN32" />
+					<Add option="/D_WINDOWS" />
+					<Add directory="..\usr\include" />
+					<Add directory="..\usr\include\OGRE" />
+					<Add directory="..\usr\include\mygui" />
+					<Add directory="..\usr\include\boost" />
+					<Add directory="..\usr\include\OGRE\Threading" />
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="MyGUIEngine_d.lib" />
+					<Add library="MyGUI.OgrePlatform_d.lib" />
+					<Add library="OgreMain_d.lib" />
+					<Add directory="..\usr\libs\mygui" />
+					<Add directory="..\usr\libs\OGRE\debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="..\bin32\mygui_test1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="..\obj\bin32\mygui_test1\" />
+				<Option type="1" />
+				<Option compiler="msvc8" />
+				<Compiler>
+					<Add option="/Ox" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="/W3" />
+		</Compiler>
+		<Unit filename="..\src\mygui_test1\main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
