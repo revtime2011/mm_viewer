@@ -1,0 +1,62 @@
+13:29:53  |  Platform  |  Info  |  * Initialise: RenderManager  |  ..\..\..\..\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  43
+13:29:53  |  Platform  |  Info  |  RenderManager successfully initialized  |  ..\..\..\..\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreRenderManager.cpp  |  71
+13:29:53  |  Platform  |  Info  |  * Initialise: DataManager  |  ..\..\..\..\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  27
+13:29:53  |  Platform  |  Info  |  DataManager successfully initialized  |  ..\..\..\..\Platforms\Ogre\OgrePlatform\src\MyGUI_OgreDataManager.cpp  |  35
+13:29:53  |  Core  |  Info  |  * Initialise: Gui  |  ..\..\MyGUIEngine\src\MyGUI_Gui.cpp  |  75
+13:29:53  |  Core  |  Info  |  * MyGUI version 3.2.0  |  ..\..\MyGUIEngine\src\MyGUI_Gui.cpp  |  87
+13:29:53  |  Core  |  Info  |  * Initialise: ResourceManager  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  48
+13:29:53  |  Core  |  Info  |  ResourceManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  56
+13:29:53  |  Core  |  Info  |  * Initialise: LayerManager  |  ..\..\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  49
+13:29:53  |  Core  |  Info  |  LayerManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_LayerManager.cpp  |  57
+13:29:53  |  Core  |  Info  |  * Initialise: WidgetManager  |  ..\..\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  67
+13:29:54  |  Core  |  Info  |  WidgetManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_WidgetManager.cpp  |  98
+13:29:54  |  Core  |  Info  |  * Initialise: InputManager  |  ..\..\MyGUIEngine\src\MyGUI_InputManager.cpp  |  58
+13:29:54  |  Core  |  Info  |  InputManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_InputManager.cpp  |  78
+13:29:54  |  Core  |  Info  |  * Initialise: SubWidgetManager  |  ..\..\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  49
+13:29:54  |  Core  |  Info  |  SubWidgetManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_SubWidgetManager.cpp  |  69
+13:29:54  |  Core  |  Info  |  * Initialise: SkinManager  |  ..\..\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  53
+13:29:54  |  Core  |  Info  |  SkinManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_SkinManager.cpp  |  61
+13:29:54  |  Core  |  Info  |  * Initialise: FontManager  |  ..\..\MyGUIEngine\src\MyGUI_FontManager.cpp  |  48
+13:29:54  |  Core  |  Info  |  FontManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_FontManager.cpp  |  57
+13:29:54  |  Core  |  Info  |  * Initialise: ControllerManager  |  ..\..\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  46
+13:29:54  |  Core  |  Info  |  ControllerManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_ControllerManager.cpp  |  56
+13:29:54  |  Core  |  Info  |  * Initialise: PointerManager  |  ..\..\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  60
+13:29:54  |  Core  |  Info  |  PointerManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_PointerManager.cpp  |  78
+13:29:54  |  Core  |  Info  |  * Initialise: ClipboardManager  |  ..\..\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  87
+13:29:54  |  Core  |  Info  |  ClipboardManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_ClipboardManager.cpp  |  101
+13:29:54  |  Core  |  Info  |  * Initialise: LayoutManager  |  ..\..\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  45
+13:29:54  |  Core  |  Info  |  LayoutManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_LayoutManager.cpp  |  50
+13:29:54  |  Core  |  Info  |  * Initialise: DynLibManager  |  ..\..\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  41
+13:29:54  |  Core  |  Info  |  DynLibManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_DynLibManager.cpp  |  45
+13:29:54  |  Core  |  Info  |  * Initialise: PluginManager  |  ..\..\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  45
+13:29:54  |  Core  |  Info  |  PluginManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_PluginManager.cpp  |  49
+13:29:54  |  Core  |  Info  |  * Initialise: LanguageManager  |  ..\..\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  45
+13:29:54  |  Core  |  Info  |  LanguageManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_LanguageManager.cpp  |  49
+13:29:54  |  Core  |  Info  |  * Initialise: FactoryManager  |  ..\..\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  40
+13:29:54  |  Core  |  Info  |  FactoryManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_FactoryManager.cpp  |  42
+13:29:54  |  Core  |  Info  |  * Initialise: ToolTipManager  |  ..\..\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  48
+13:29:54  |  Core  |  Info  |  ToolTipManager successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_ToolTipManager.cpp  |  60
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_Fonts.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont.15' using texture size 128 x 128.  |  ..\..\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  705
+13:29:54  |  Core  |  Info  |  ResourceTrueTypeFont: Font 'DejaVuSansFont.15' using real height 17 pixels.  |  ..\..\MyGUIEngine\src\MyGUI_ResourceTrueTypeFont.cpp  |  706
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_Images.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_CommonSkins.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Register value : 'HCenter' = 0  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  238
+13:29:54  |  Core  |  Info  |  Register value : 'VCenter' = 0  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  239
+13:29:54  |  Core  |  Info  |  Register value : 'Center' = 0  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  240
+13:29:54  |  Core  |  Info  |  Register value : 'Left' = 2  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  241
+13:29:54  |  Core  |  Info  |  Register value : 'Right' = 4  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  242
+13:29:54  |  Core  |  Info  |  Register value : 'HStretch' = 6  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  243
+13:29:54  |  Core  |  Info  |  Register value : 'Top' = 8  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  244
+13:29:54  |  Core  |  Info  |  Register value : 'Bottom' = 16  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  245
+13:29:54  |  Core  |  Info  |  Register value : 'VStretch' = 24  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  246
+13:29:54  |  Core  |  Info  |  Register value : 'Stretch' = 30  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  247
+13:29:54  |  Core  |  Info  |  Register value : 'Default' = 10  |  d:\ogre_sdk\ogresdk\my-gui\myguiengine\include\MyGUI_Align.h  |  248
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_BlueWhiteTheme.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_BlueWhiteImages.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_BlueWhiteSkins.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_BlueWhiteTemplates.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_Pointers.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_Layers.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Load ini file 'MyGUI_Settings.xml'  |  ..\..\MyGUIEngine\src\MyGUI_ResourceManager.cpp  |  130
+13:29:54  |  Core  |  Info  |  Gui successfully initialized  |  ..\..\MyGUIEngine\src\MyGUI_Gui.cpp  |  133
