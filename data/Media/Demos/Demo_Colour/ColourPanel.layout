@@ -3,7 +3,7 @@
     <Widget type="Window" skin="WindowC" position="496 400 427 311" layer="Overlapped" name="_Main">
         <Property key="Caption" value="Colour picker"/>
         <Widget type="Widget" skin="PanelSkin" position="7 7 262 262">
-            <Widget type="ImageBox" skin="ImageBox" position="2 2 256 256" name="widget_ColourRect">
+            <Widget type="ImageBox" skin="ImageBox" position="0 0 256 258" name="widget_ColourRect">
                 <Widget type="ImageBox" skin="ImageBox" position="0 0 16 16" name="image_Picker">
                     <Property key="ImageTexture" value="Pick.png"/>
                     <Property key="ImageCoord" value="0 0 16 16"/>
@@ -49,7 +49,7 @@
             <Property key="Caption" value="Red"/>
             <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
-        <Widget type="EditBox" skin="EditBox" position="356 188 56 26" name="edit_Red">
+        <Widget type="EditBox" skin="EditBox" position="355 190 56 26" name="edit_Red">
             <Property key="Caption" value="256"/>
             <Property key="TextAlign" value="Center"/>
             <Property key="MaxTextLength" value="3"/>
