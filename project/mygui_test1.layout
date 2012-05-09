@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="..\src\mygui_test1\main.cpp" open="1" top="1" tabpos="1">
-		<Cursor position="782" topLine="5" />
+	<File name="..\src\mygui_test1\InputManager.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1658" topLine="0" />
+	</File>
+	<File name="..\src\mygui_test1\InputManager.h" open="1" top="0" tabpos="1">
+		<Cursor position="437" topLine="8" />
+	</File>
+	<File name="..\src\mygui_test1\app.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="248" topLine="0" />
+	</File>
+	<File name="..\src\mygui_test1\app.h" open="1" top="1" tabpos="4">
+		<Cursor position="212" topLine="60" />
+	</File>
+	<File name="..\src\mygui_test1\main.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="16" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>
