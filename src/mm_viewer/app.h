@@ -34,6 +34,7 @@ public:
             Ogre::ResourceGroupManager::getSingleton().addResourceLocation("../data/Media/MyGUI_Media", "FileSystem",Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME, false);
             Ogre::ResourceGroupManager::getSingleton().addResourceLocation("../data/Media/MyGUI_Media/Common/Base","FileSystem", Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,  false);
             Ogre::ResourceGroupManager::getSingleton().addResourceLocation("../data/Media/Demos/Demo_Themes","FileSystem", Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,  false);
+	     Ogre::ResourceGroupManager::getSingleton().addResourceLocation("../data/Media/layouts","FileSystem", Ogre::ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,  false);
             Ogre::ResourceGroupManager::getSingleton().initialiseAllResourceGroups();
       }
 
@@ -60,11 +61,18 @@ public:
             loadGuiResources();
 
             //MyGUI::LayoutManager::getInstance().loadLayout("Themes.layout");
-            MyGUI::Button *  button = ui->createWidget<MyGUI::Button>("Button",10,10,300,26,MyGUI::Align::Default,"Main");
-            std::cout<<"button is "<<button<<std::endl;
+	    MyGUI::VectorWidgetPtr layout1_root =  MyGUI::LayoutManager::getInstance().loadLayout("MainMenuControl.layout");
+	    std::cout<<"revtime : the child count of layout is :"<<layout1_root[0]->getChildCount()<<std::endl;
+	    std::cout<<"revtime : the menu's coord is :"<<layout1_root[0]->findWidget("Menu")->getCoord()<<std::endl;
+
+            //MyGUI::Button *  button = ui->createWidget<MyGUI::Button>("Button",10,10,300,26,MyGUI::Align::Default,"Main");
+	   // button->eventMouseButtonClick += MyGUI::newDelegate(this, &App::onButtonClick);
+          //  std::cout<<"button is "<<button<<std::endl;
             std::cout<<"setupScene finished"<<std::endl;
 
       }
+
+      void onButtonClick(MyGUI::Widget * _sender);
 
       void run(){
             std::cout<<"start rendering "<<ogre_root<<std::endl;
